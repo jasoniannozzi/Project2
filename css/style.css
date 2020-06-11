@@ -1,0 +1,274 @@
+
+
+    p   {
+       
+        
+        font-size: 34px;
+        font-family:'Roboto', sans-serif;
+        justify-content: center;
+        text-align: justify;
+        color: black;
+        padding-top: 40px;
+        
+    }
+
+
+
+
+    .h1, .h2  {
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 36px;    
+        font-weight: bold;
+        color: white;
+        padding: 25px;
+     }
+
+
+     .row1 {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        justify-content: space-around;
+        padding: 25px;
+        height: 250px;
+        width: 300px;
+        
+      }
+         
+      .column1 {
+        align-items: center;
+        background-position: center center;
+        display: flex;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 24px;  
+        justify-content: space-evenly;
+        padding: 25px;
+
+
+      }
+
+      .center1 {
+          text-align: center;
+          padding: 45px;
+          margin-bottom: 25px;
+          
+      }
+
+         
+      .giphyresults {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, 175px);
+        grid-gap: 25px;
+        font-family:'Roboto', sans-serif;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        overflow:hidden;
+        width: 100%;
+        height: auto;
+      }
+
+
+    
+
+       button {
+        text-align: center;
+        justify-content: center;
+        padding: 25px;
+        color: white;
+        font-size : 28px; 
+        font-family:'Roboto', sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px #000;
+        transition: 0.4s ease-in-out;
+        }
+
+  
+
+ 
+      
+
+      .headerimg    {
+        padding: 25px;
+        height: 50px;
+        text-align: center;
+        position: relative;
+        
+      }
+
+      .amatic {
+        font-family: 'Amatic SC', cursive;
+        font-size: 26px;
+        color: black;
+      }
+
+
+      * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family:'Roboto', Arial, sans-serif;
+        font-weight: bold;
+
+      }
+      
+      
+      .spaceimg  {
+        background-image: url("https://wallpapercave.com/wp/kSQdCxM.jpg");
+        background-size:cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+      }
+
+      .wrapper  {
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        width: 500px;
+        padding: 15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .wrapper .input {
+        width: 85%;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .searchbtn  {
+        background: lightcyan;
+        width: 10%;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .searchbtn:hover {
+        background-color: plum;
+      }
+
+      .searchbtn .fas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 18px;
+      }
+
+      .giphyfooter {
+             
+        bottom: 0;
+        width: 100%;
+        background: white
+     
+       
+      }
+
+      .footertext   {
+        color: darkslategray;
+        font-family: 'Comfortaa', cursive;
+        font-size: 32px;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      .footerimg    {
+          display: flex;
+          justify-content: space-between;
+          
+          
+      }
+
+      .img-hor {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+      .hr {
+        height: 2px;
+        width: 85%;
+        color: white;
+
+      }
+
+      #lower-content {
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        
+    }
+
+
+    
+@media screen and (min-width: 320px) {
+    .my-form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .my-input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 575px) {
+    .my-form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+    .my-input {
+      width: 90px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .my-form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+    .my-input {
+      width: 175px;
+    }
+  }
+
+.item img  {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
