@@ -12,8 +12,29 @@
         
     }
 
+    header {
+      background: darkslateblue;
+      padding: 30px 20px;
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+    }
 
 
+    .topnav {
+      display: flex;
+      width: 35%;
+      justify-content: space-between;
+      color:  whitesmoke
+    }
+
+    .navlogo  { 
+      height: 60px;
+      border-radius: 5px;
+      margin: 10px;
+
+      
+    }
 
     .h1, .h2  {
         text-align: center;
@@ -214,8 +235,8 @@
         display: flex;
         justify-content: center;
         font-family: 'Roboto', sans-serif;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
         
         
     }
