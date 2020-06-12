@@ -1,9 +1,11 @@
-
+  body  {
+    margin: 0px;
+  }
 
     p   {
        
         
-        font-size: 34px;
+        font-size: 22px;
         font-family:'Roboto', sans-serif;
         justify-content: center;
         text-align: justify;
@@ -20,6 +22,10 @@
       text-decoration: none;
     }
 
+    .giphylogo  {
+      height:125px;
+      width: 350px; 
+    }
 
     .topnav {
       display: flex;
@@ -199,6 +205,7 @@
      
        
       }
+     
 
       .footertext   {
         color: darkslategray;
@@ -242,54 +249,25 @@
     }
 
 
-    
-@media screen and (min-width: 320px) {
-    .my-form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-    }
-    .my-input {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (min-width: 575px) {
-    .my-form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-    }
-    .my-input {
-      width: 90px;
-    }
-  }
-  
-  @media screen and (min-width: 768px) {
-    .my-form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-    }
-    .my-input {
-      width: 175px;
-    }
-  }
-
-.item img  {
+.item img {
     position: relative;
     height: auto;
     width: 100%;
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
