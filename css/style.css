@@ -1,5 +1,7 @@
   body  {
     margin: 0px;
+    max-width: 100vw;
+    max-height: 100vh;
   }
 
     p   {
@@ -252,8 +254,13 @@
 
 .item img {
     position: relative;
-    height: auto;
     width: 100%;
+}
+
+.imgresults {
+  object-fit: fill;
+  height: 150px;
+  width: 200px;
 }
 
 
@@ -263,12 +270,12 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem;    
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem;         
 }

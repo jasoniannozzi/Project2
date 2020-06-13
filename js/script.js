@@ -3,9 +3,10 @@ showResults = function(results) {
     let html = "";
     results.map(function(result) {
       console.log(result.images.original.url);
-      html = html + `<img src=${result.images.original.url} />`
+      html = html + `<img class='imgresults' src=${result.images.original.url} />`
     });
     console.log(html);
+    $('#results').html("")
     $('#results').append(html);
   
   }; 
