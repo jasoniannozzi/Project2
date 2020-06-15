@@ -49,6 +49,23 @@
       
     }
 
+    .center1 {
+      text-align: center;
+      justify-content: center;
+      padding: 45px;
+      margin-right: 5px;
+      margin-left: 5px;
+      background-color: white;
+      
+  }
+  
+  .videobox {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+  }
+
     .h1, .h2  {
         text-align: center;
         font-family: 'Amatic SC', cursive;
@@ -84,12 +101,8 @@
 
       }
 
-      .center1 {
-          text-align: center;
-          padding: 45px;
-          margin-bottom: 25px;
-          
-      }
+    
+
 
          
       .giphyresults {
@@ -170,7 +183,7 @@
       .wrapper  {
         position: absolute;
         background: rgba(0,0,0,0.6);
-        width: 60%;
+        width: 50%;
         padding: 15px;
         border-radius: 5px;
         display: flex;
