@@ -242,9 +242,13 @@
           flex-wrap: wrap;
           justify-content: space-between;
           width: 50%;
-          
-          
-      }
+        }
+
+        @media screen and (max-width: 769px)  {
+          .footerimg {
+            height: 200px;
+          }
+        }
 
       .img-hor {
         -moz-transform: scaleX(-1);
